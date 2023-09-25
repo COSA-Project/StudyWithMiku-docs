@@ -1,0 +1,17 @@
+"use strict";(self.webpackChunkTopWritePlugins_youku=self.webpackChunkTopWritePlugins_youku||[]).push([[444],{921:(e,t,r)=>{r.d(t,{Z:()=>n});var o=r(99);function n(){const{config:e}=(0,o.useBook)();return function(e){const t=r(181);return e.getPluginConfig("youku",t)}(e)}},444:(e,t,r)=>{r.r(t),r.d(t,{default:()=>c});var o=r(483),n=r(99),i=r(196);const s=/(\w+)\s=(\d*)x(\d*)/;var a=r(921);let u=0,l=!1;function c(e){let{props:{value:t}}=e;const r=(0,a.Z)(),[c,p]=(0,i.useState)({width:2,height:2,resize:!1}),d=(0,i.useMemo)((()=>"youku-"+ ++u),[]);return(0,i.useEffect)((()=>{l||(l=!0,(0,n.loadjs)("https://player.youku.com/jsapi","youku")),n.loadjs.ready("youku",(()=>{let{id:e,width:o,height:n,password:i}=function(e){let t,r,[o,n]=e.trim().split("\n"),i=s.exec(o);return i&&(o=i[1],t=parseInt(i[2])||"auto",r=parseInt(i[3])||"auto"),{id:o,width:t,height:r,password:n}}(t),a={vid:e};i&&(a.password=i),a=Object.assign({styleid:"0",client_id:"70425dd755d80061",newPlayer:!0},r.getValues(),a),p(o||n?{width:o,height:n,resize:!0,options:a}:{width:"100%",height:"100%",resize:!1,options:a})}))}),[t]),(0,i.useEffect)((()=>{c.options&&new window.YKU.Player(d,c.options)}),[c.options]),(0,o.jsx)(o.Fragment,{children:c.resize?(0,o.jsx)("div",{id:d,style:{width:c.width,height:c.height}}):(0,o.jsx)("div",{style:{position:"relative",width:"100%",height:0,paddingBottom:"56.25%"},children:(0,o.jsx)("div",{id:d,style:{position:"absolute",top:0,bottom:0,left:0,right:0,width:c.width,height:c.height}})})})}},875:e=>{
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+var t=Object.getOwnPropertySymbols,r=Object.prototype.hasOwnProperty,o=Object.prototype.propertyIsEnumerable;e.exports=function(){try{if(!Object.assign)return!1;var e=new String("abc");if(e[5]="de","5"===Object.getOwnPropertyNames(e)[0])return!1;for(var t={},r=0;r<10;r++)t["_"+String.fromCharCode(r)]=r;if("0123456789"!==Object.getOwnPropertyNames(t).map((function(e){return t[e]})).join(""))return!1;var o={};return"abcdefghijklmnopqrst".split("").forEach((function(e){o[e]=e})),"abcdefghijklmnopqrst"===Object.keys(Object.assign({},o)).join("")}catch(e){return!1}}()?Object.assign:function(e,n){for(var i,s,a=function(e){if(null==e)throw new TypeError("Object.assign cannot be called with null or undefined");return Object(e)}(e),u=1;u<arguments.length;u++){for(var l in i=Object(arguments[u]))r.call(i,l)&&(a[l]=i[l]);if(t){s=t(i);for(var c=0;c<s.length;c++)o.call(i,s[c])&&(a[s[c]]=i[s[c]])}}return a}},65:(e,t,r)=>{
+/** @license React v17.0.2
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+r(875);var o=r(196),n=60103;if(t.Fragment=60107,"function"==typeof Symbol&&Symbol.for){var i=Symbol.for;n=i("react.element"),t.Fragment=i("react.fragment")}var s=o.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,a=Object.prototype.hasOwnProperty,u={key:!0,ref:!0,__self:!0,__source:!0};function l(e,t,r){var o,i={},l=null,c=null;for(o in void 0!==r&&(l=""+r),void 0!==t.key&&(l=""+t.key),void 0!==t.ref&&(c=t.ref),t)a.call(t,o)&&!u.hasOwnProperty(o)&&(i[o]=t[o]);if(e&&e.defaultProps)for(o in t=e.defaultProps)void 0===i[o]&&(i[o]=t[o]);return{$$typeof:n,type:e,key:l,ref:c,props:i,_owner:s.current}}t.jsx=l},483:(e,t,r)=>{e.exports=r(65)}}]);
+//# sourceMappingURL=444-fd2f47.js.map
