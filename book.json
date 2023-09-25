@@ -1,0 +1,68 @@
+{
+    "title": "StudyWithMiku Web Version Cover|帮助文档",
+    "theme": "classic",
+    "plugins": [
+        "assistant",
+        "weaccount",
+        "qrcode",
+        "bilibili",
+        "sql-table",
+        "video",
+        "audio",
+        "youku",
+        "copy-code",
+        "sequence",
+        "flow",
+        "image-zoom",
+        "jsfiddle",
+        "api",
+        "lunrjs",
+        "highlight",
+        "tex"
+    ],
+    "pluginsConfig": {
+        "assistant": {
+            "siteId": "oQeZw2ap"
+        },
+        "highlight": {
+            "defaultLanguage": "html"
+        },
+        "watermark": {
+            "text": "MIT License"
+        },
+        "sponsor": {
+            "sponsors": [
+                {
+                    "logo": ".topwrite\/assets\/wenqi.ico",
+                    "url": "https:\/\/wenqi.icu"
+                },
+                {
+                    "logo": ".topwrite\/assets\/CTG_1695538582665.png",
+                    "url": "https:\/\/ctgstudio.tech"
+                },
+                {
+                    "logo": ".topwrite\/assets\/logo.e330c4.svg",
+                    "url": "https:\/\/k.topthink.com"
+                },
+                {
+                    "logo": ".topwrite\/assets\/CTG_1695540617509.png",
+                    "url": "https:\/\/www.markdownguide.org\/"
+                }
+            ]
+        }
+    },
+    "themeConfig": {
+        "primaryColor": "#448791",
+        "expandLevel": -1,
+        "navs": [
+            {
+                "title": "STUDY",
+                "url": "https:\/\/studymiku.wenqi.icu"
+            },
+            {
+                "title": "Github",
+                "url": "https:\/\/github.com\/WenqiOfficial\/StudyWithMiku"
+            }
+        ]
+    }
+}
